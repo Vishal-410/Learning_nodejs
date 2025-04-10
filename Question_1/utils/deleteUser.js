@@ -5,10 +5,14 @@ const deleteUser = async () => {
 
   try {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const userProfiles = await UserProfile.find(); 
 =======
     const userProfiles = await UserProfile.find();
 >>>>>>> 94d6542 (learn nodeJs on day-2)
+=======
+    const userProfiles = await UserProfile.find();
+>>>>>>> socket.io
 
     for (const profile of userProfiles) {
       if (currentYear - new Date(profile.dob).getFullYear() > 25) {
