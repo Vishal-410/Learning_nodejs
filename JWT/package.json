@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "jwt",
-=======
   "name": "new-folder",
->>>>>>> third-branch
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
-<<<<<<< HEAD
     "cloudinary": "^2.6.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
@@ -25,13 +20,8 @@
     "jwt": "file:",
     "mongoose": "^8.13.2",
     "multer": "^1.4.5-lts.2",
+    "new-folder": "file:",
     "nodemailer": "^6.10.0"
-=======
-    "dotenv": "^16.4.7",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2"
->>>>>>> third-branch
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
